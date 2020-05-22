@@ -22,18 +22,23 @@ public class RocketPlayController : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
+            
             if (UiManagerLevel1Controller.instance.hasStarted)
             {
 
                 rocketRigidbody2D.velocity = Vector2.zero;
                 rocketRigidbody2D.AddForce(new Vector2(0, gravityJump));
-                SpaceShipSpownerDown.instance.StartSpawn();
+                
             }
             else
             {
+                SpaceShipSpownerDown.instance.StartSpawn();
+                SpaceShipSpownerUp.instance.StartSpawn();
                 UiManagerLevel1Controller.instance.hasStarted = true;
                 rocketRigidbody2D.isKinematic = false;
             }
         }
     }
+
+  
 }

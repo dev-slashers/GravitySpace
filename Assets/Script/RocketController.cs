@@ -15,4 +15,17 @@ public class RocketController : MonoBehaviour
     {
         
     }
+
+    void OnTriggerEnter2(Collider2D collider2D)
+    {   
+        switch(collider2D.gameObject.tag)
+        {
+            case "MaxDown":
+                UiManagerLevel1Controller.instance.GameOver();
+                break;
+            case "AddScore":
+                UiManagerLevel1Controller.instance.AddScore();
+                break;
+        }
+    }
 }

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SpaceShipSpownerDown : MonoBehaviour
 {
-    public float spawnTime;
-    public float maxPositionY;
+    //public float spawnTime;
+    //public float maxPositionY;
     public GameObject gameObjectAlien;
 
     public static SpaceShipSpownerDown instance;
@@ -19,13 +19,13 @@ public class SpaceShipSpownerDown : MonoBehaviour
 
     void SpawnObject()
     {
-        Instantiate(gameObjectAlien, new Vector3(transform.position.x, Random.Range(-maxPositionY, maxPositionY), 0),Quaternion.identity);
+        Instantiate(gameObjectAlien, new Vector3(transform.position.x, Random.Range(-UiManagerLevel1Controller.instance.maxPositionY, UiManagerLevel1Controller.instance.maxPositionY), 0),Quaternion.identity);
     }
 
 
     public void StartSpawn()
     {
-        InvokeRepeating("SpawnObject", 0.1f, spawnTime);
+        InvokeRepeating("SpawnObject", 0.1f, UiManagerLevel1Controller.instance.spawnTime);
     }
 
     public void StopSpawn()
@@ -45,4 +45,6 @@ public class SpaceShipSpownerDown : MonoBehaviour
     {
         
     }
+
+
 }
