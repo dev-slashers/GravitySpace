@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class SpaceShipSpownerDown : MonoBehaviour
 {
-    //public float spawnTime;
-    //public float maxPositionY;
     public GameObject gameObjectAlien;
 
     public static SpaceShipSpownerDown instance;

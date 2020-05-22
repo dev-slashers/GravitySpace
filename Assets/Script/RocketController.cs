@@ -15,7 +15,7 @@ public class RocketController : MonoBehaviour
     {
         
     }
-
+    /*
     void OnTriggerEnter2(Collider2D collider2D)
     {   
         switch(collider2D.gameObject.tag)
@@ -28,4 +28,5 @@ public class RocketController : MonoBehaviour
                 break;
         }
     }
+    */
 }

@@ -49,6 +49,11 @@ public class spaceShipAlienController : MonoBehaviour
         {
             Destroy(gameObject,1f);
         }
+
+        if(collider2D.gameObject.tag == "Player")
+        {
+            UiManagerLevel1Controller.instance.AddScore();
+        }
     }
 
 }

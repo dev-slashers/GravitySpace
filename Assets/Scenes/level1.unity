@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 497007198}
   m_Layer: 0
   m_Name: rocket
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -877,7 +877,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497007192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.78, y: -1.29, z: 0}
+  m_LocalPosition: {x: -1.78, y: 1.53, z: 0}
   m_LocalScale: {x: 0.389478, y: 0.389478, z: 0.389478}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1159,6 +1159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1073834058}
   - component: {fileID: 1073834057}
+  - component: {fileID: 1073834059}
   m_Layer: 0
   m_Name: FooterObject
   m_TagString: MaxDown
@@ -1196,6 +1197,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073834059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073834056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b2d55cb15d9ea4eba99b0d9df82e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1189232533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,6 +1653,8 @@ MonoBehaviour:
   spawnTime: 5
   maxPositionY: 2
   scoreText: {fileID: 1403830293}
+  gameOverScoreText: {fileID: 592954971}
+  gameOverBestScoreText: {fileID: 494507287}
   gameOverPanel: {fileID: 147594584}
   gameOver: 0
   hasStarted: 0

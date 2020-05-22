@@ -6,13 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class UiManagerLevel1Controller : MonoBehaviour
 {
-
-
     public float spawnTime;
     public float maxPositionY;
     public Text scoreText;
 
-  
+    public Text gameOverScoreText;
+    public Text gameOverBestScoreText;
 
     public GameObject gameOverPanel;
 
@@ -32,7 +31,7 @@ public class UiManagerLevel1Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        score = 10;
+        score = 0;
         hasStarted = false;
         gameOver = false;
     }
@@ -50,12 +49,17 @@ public class UiManagerLevel1Controller : MonoBehaviour
         gameOverPanel.SetActive(true);
         SpaceShipSpownerDown.instance.StopSpawn();
         SpaceShipSpownerUp.instance.StopSpawn();
+
+        gameOverScoreText.text = "You Score: " + score.ToString();
+        gameOverBestScoreText.text = "Best score:   " + PlayerPrefs.GetInt("bestScore").ToString();
+
     }
 
     public void AddScore()
     {
         score += 1;
         scoreText.text = score.ToString();
+        if (PlayerPrefs.HasKey("bestScore") && score > PlayerPrefs.GetInt("bestScore")) PlayerPrefs.SetInt("bestScore", score);
     }
 
 
@@ -67,9 +71,6 @@ public class UiManagerLevel1Controller : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-
-
-
 
 
 }
