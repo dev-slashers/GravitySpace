@@ -16,9 +16,4 @@ public class FooterController : MonoBehaviour
         
     }
 
-
-    void OnTriggerEnter2D(Collider2D collider2D)
-    {
-        if(collider2D.gameObject.tag == "Player") UiManagerLevel1Controller.instance.GameOver(); 
-    }
 }

@@ -22,7 +22,6 @@ public class RocketPlayController : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            
             if (UiManagerLevel1Controller.instance.hasStarted)
             {
 
@@ -37,6 +36,16 @@ public class RocketPlayController : MonoBehaviour
                 UiManagerLevel1Controller.instance.hasStarted = true;
                 rocketRigidbody2D.isKinematic = false;
             }
+        }
+    }
+
+
+    void OnTriggerEnter2D(Collider2D collider2D)
+    {
+        if (collider2D.gameObject.tag == "Footer")
+        {
+            UiManagerLevel1Controller.instance.GameOver();
+            Destroy(gameObject, 1f);
         }
     }
 

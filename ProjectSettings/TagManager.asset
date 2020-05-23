@@ -8,6 +8,8 @@ TagManager:
   - MaxTop
   - MaxDown
   - AddScore
+  - Footer
+  - Alien
   layers:
   - Default
   - TransparentFX
