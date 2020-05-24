@@ -7,7 +7,14 @@ public class RocketPlayController : MonoBehaviour
 
     // Physics value to jump, default is 200
     public float gravityJump;
-    Rigidbody2D rocketRigidbody2D;
+    public Rigidbody2D rocketRigidbody2D;
+
+    public static RocketPlayController instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -27,15 +34,9 @@ public class RocketPlayController : MonoBehaviour
 
                 rocketRigidbody2D.velocity = Vector2.zero;
                 rocketRigidbody2D.AddForce(new Vector2(0, gravityJump));
-                
+           
             }
-            else
-            {
-                SpaceShipSpownerDown.instance.StartSpawn();
-                SpaceShipSpownerUp.instance.StartSpawn();
-                UiManagerLevel1Controller.instance.hasStarted = true;
-                rocketRigidbody2D.isKinematic = false;
-            }
+           
         }
     }
 

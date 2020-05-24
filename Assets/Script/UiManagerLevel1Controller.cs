@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using UnityEngine.SceneManagement;
 
 public class UiManagerLevel1Controller : MonoBehaviour
@@ -58,11 +57,26 @@ public class UiManagerLevel1Controller : MonoBehaviour
     public void AddScore()
     {
         score += 1;
+
+        if (score == 10) SceneManager.LoadScene("demoScene");
+
+        string scoreKey = "bestScore";
         scoreText.text = score.ToString();
-        if (PlayerPrefs.HasKey("bestScore") && score > PlayerPrefs.GetInt("bestScore")) PlayerPrefs.SetInt("bestScore", score);
+        SpaceShitController.instance.speedTime += 5f;
+        if (PlayerPrefs.HasKey(scoreKey) && score > PlayerPrefs.GetInt(scoreKey)) PlayerPrefs.SetInt("bestScore", score);
+        if (!PlayerPrefs.HasKey(scoreKey)) PlayerPrefs.SetInt(scoreKey, score);
     }
 
 
+
+    public void StartButton()
+    {
+        SpaceShipSpownerDown.instance.StartSpawn();
+        SpaceShipSpownerUp.instance.StartSpawn();
+        hasStarted = true;
+        RocketPlayController.instance.rocketRigidbody2D.isKinematic = false;
+        Destroy(GameObject.FindWithTag("StartButton"));
+    }
     public void ButtonReset()
     {
         SceneManager.LoadScene("level1");

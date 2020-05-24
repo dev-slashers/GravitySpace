@@ -1,11 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AddScoreController
+    - FooterController
     - MainUiManagerController
-    - RocketController
     - RocketPlayController
     - SpaceShipSpownerDown
     - SpaceShipSpownerUp
+    - SpaceShitController
     - UiManagerLevel1Controller
     - spaceShipAlienController
     Unity.2D.Animation.Editor.dll:
@@ -76,11 +78,60 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12876}
+      Script: {instanceID: 12878}
     - Class: 114
-      Script: {instanceID: 13634}
+      Script: {instanceID: 13638}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 14252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/demoScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11170}
+    - Class: 114
+      Script: {instanceID: 11458}
+    - Class: 114
+      Script: {instanceID: 11512}
+    - Class: 114
+      Script: {instanceID: 12054}
+    - Class: 114
+      Script: {instanceID: 12176}
+    - Class: 114
+      Script: {instanceID: 13638}
+    - Class: 114
+      Script: {instanceID: 14252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -133,8 +184,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11366}
-    - Class: 114
       Script: {instanceID: 11458}
     - Class: 114
       Script: {instanceID: 11512}
@@ -147,17 +196,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12176}
     - Class: 114
-      Script: {instanceID: 12876}
+      Script: {instanceID: 12426}
     - Class: 114
-      Script: {instanceID: 13044}
+      Script: {instanceID: 12878}
     - Class: 114
-      Script: {instanceID: 13634}
+      Script: {instanceID: 13046}
     - Class: 114
-      Script: {instanceID: 13736}
+      Script: {instanceID: 13280}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 13638}
     - Class: 114
-      Script: {instanceID: 14258}
+      Script: {instanceID: 13646}
+    - Class: 114
+      Script: {instanceID: 13742}
+    - Class: 114
+      Script: {instanceID: 14252}
+    - Class: 114
+      Script: {instanceID: 14264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -359,7 +414,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 65e32936152196324d9a50c57108999e
+      Hash: f9cf0ce46292b8f51b74d7825d04431d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RocketPlayController
@@ -423,6 +478,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: fea409ab5166f04fb5bb8add687ece25
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpaceShitController
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -545,6 +606,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AddScoreController
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -569,13 +636,19 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FooterController
+  - hash:
+      serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: b095536a389fc675acd1bd2e9e222c01
+      Hash: c17d98aa8ceee78549f0338d5b6217a4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UiManagerLevel1Controller
@@ -659,7 +732,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: fea409ab5166f04fb5bb8add687ece25
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: spaceShipAlienController
@@ -697,4 +770,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Main.unity
   - Assets/Scenes/level1.unity
-  playerPath: C:/Users/Crash/Downloads/games.apk
+  - Assets/Scenes/demoScene.unity
+  playerPath: C:/Users/Crash/Downloads/gravitySpace.apk

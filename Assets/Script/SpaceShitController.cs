@@ -7,6 +7,15 @@ public class SpaceShitController : MonoBehaviour
 
     public float speedTime;
     Rigidbody2D spaceShitRigidBody2D;
+
+    public static SpaceShitController instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +26,7 @@ public class SpaceShitController : MonoBehaviour
     //Engine to set Direction
     void MoveSpace()
     {
-        float range = Random.Range(0, 10); //> 3 ? 2f:-1f;
+        float range = Random.Range(0, 10);
         float toMove = 1f;
 
         if (range > 2) toMove = -2f;
