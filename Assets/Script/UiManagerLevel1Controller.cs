@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class UiManagerLevel1Controller : MonoBehaviour
 {
-    int score;
+    public int score;
     public float spawnTime;
 
 
@@ -33,7 +33,7 @@ public class UiManagerLevel1Controller : MonoBehaviour
         score = 0;
         hasStarted = false;
         gameOver = false;
-        Settings.instance.GetResolution();
+        //Settings.instance.GetResolution();
     }
 
     // Update is called once per frame
@@ -58,8 +58,6 @@ public class UiManagerLevel1Controller : MonoBehaviour
     public void AddScore()
     {
         score += 1;
-
-        if (score == 10) SceneManager.LoadScene("demoScene");
 
         spaceShitSpeed += 0.5f;
         string scoreKey = "bestScore";

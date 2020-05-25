@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpaceShipSpownerDown : MonoBehaviour
 {
     public GameObject gameObjectAlien;
-
+    public GameObject gameObjectRocket;
     public static SpaceShipSpownerDown instance;
 
 
@@ -19,6 +19,10 @@ public class SpaceShipSpownerDown : MonoBehaviour
     {
        
         Instantiate(gameObjectAlien, new Vector3(transform.position.x, Random.Range(1f, 4f), 0),Quaternion.identity);
+
+
+        if(UiManagerLevel1Controller.instance.score > 5) Instantiate(gameObjectRocket);
+
     }
 
 

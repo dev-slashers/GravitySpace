@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AddScoreController
+    - EnemyRocketController
     - FooterController
     - MainUiManagerController
     - RocketPlayController
@@ -78,11 +79,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12182}
     - Class: 114
-      Script: {instanceID: 12880}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 13640}
+      Script: {instanceID: 13644}
     - Class: 114
-      Script: {instanceID: 14254}
+      Script: {instanceID: 14260}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -129,11 +130,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12178}
     - Class: 114
-      Script: {instanceID: 13640}
+      Script: {instanceID: 12256}
     - Class: 114
-      Script: {instanceID: 14254}
+      Script: {instanceID: 13644}
     - Class: 114
-      Script: {instanceID: 19470}
+      Script: {instanceID: 14260}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -198,23 +199,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12178}
     - Class: 114
-      Script: {instanceID: 12428}
+      Script: {instanceID: 12430}
     - Class: 114
-      Script: {instanceID: 12880}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 13048}
+      Script: {instanceID: 13052}
     - Class: 114
-      Script: {instanceID: 13282}
+      Script: {instanceID: 13286}
     - Class: 114
-      Script: {instanceID: 13640}
+      Script: {instanceID: 13644}
     - Class: 114
-      Script: {instanceID: 13648}
+      Script: {instanceID: 13652}
     - Class: 114
-      Script: {instanceID: 13744}
+      Script: {instanceID: 13748}
     - Class: 114
-      Script: {instanceID: 14254}
+      Script: {instanceID: 14260}
     - Class: 114
-      Script: {instanceID: 14266}
+      Script: {instanceID: 14272}
+    - Class: 114
+      Script: {instanceID: 15960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -261,13 +264,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12178}
     - Class: 114
-      Script: {instanceID: 12880}
+      Script: {instanceID: 12440}
     - Class: 114
-      Script: {instanceID: 13640}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 14254}
+      Script: {instanceID: 13644}
     - Class: 114
-      Script: {instanceID: 16346}
+      Script: {instanceID: 14260}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -523,6 +526,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UiManagerDemo
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -539,6 +548,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpaceShitController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SettingUiManager
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -601,7 +616,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 2a19648277574f09e359803235130d6f
+      Hash: bf23b60b3119b8f1f0de974c3f3574e5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpaceShipSpownerDown
@@ -703,7 +718,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 71e04dcc9e0488b1a26583a2c31be299
+      Hash: 688a78729ce9f8bf30f1ff59cfc9d51e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UiManagerLevel1Controller
@@ -749,6 +764,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Settings
   - hash:
       serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
@@ -826,23 +847,11 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SettingUiManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Settings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UiManagerDemo
+    className: EnemyRocketController
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
   - Assets/Scenes/level1.unity
   - Assets/Scenes/demoScene.unity
   - Assets/Scenes/setting.unity
-  playerPath: C:/Users/Crash/Downloads/gravitySpace1.4.apk
+  playerPath: C:/Users/Crash/Downloads/gravitySpace1.5.apk

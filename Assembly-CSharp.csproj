@@ -56,18 +56,19 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\AddScoreController.cs" />
+     <Compile Include="Assets\Script\EnemyRocketController.cs" />
      <Compile Include="Assets\Script\FooterController.cs" />
      <Compile Include="Assets\Script\MainUiManagerController.cs" />
      <Compile Include="Assets\Script\RocketController.cs" />
      <Compile Include="Assets\Script\RocketPlayController.cs" />
+     <Compile Include="Assets\Script\SettingUiManager.cs" />
      <Compile Include="Assets\Script\SpaceShipSpownerDown.cs" />
      <Compile Include="Assets\Script\SpaceShipSpownerUp.cs" />
      <Compile Include="Assets\Script\SpaceShitController.cs" />
+     <Compile Include="Assets\Script\UiManagerDemo.cs" />
      <Compile Include="Assets\Script\UiManagerLevel1Controller.cs" />
      <Compile Include="Assets\Script\lib\Settings.cs" />
      <Compile Include="Assets\Script\spaceShipAlienController.cs" />
-     <Compile Include="Assets\SettingUiManager.cs" />
-     <Compile Include="Assets\UiManagerDemo.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
