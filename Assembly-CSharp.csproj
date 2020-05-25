@@ -56,15 +56,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\AddScoreController.cs" />
-     <Compile Include="Assets\Script\EnemyRocketController.cs" />
      <Compile Include="Assets\Script\FooterController.cs" />
      <Compile Include="Assets\Script\MainUiManagerController.cs" />
+     <Compile Include="Assets\Script\RedRocketController.cs" />
      <Compile Include="Assets\Script\RocketController.cs" />
      <Compile Include="Assets\Script\RocketPlayController.cs" />
      <Compile Include="Assets\Script\SettingUiManager.cs" />
      <Compile Include="Assets\Script\SpaceShipSpownerDown.cs" />
      <Compile Include="Assets\Script\SpaceShipSpownerUp.cs" />
      <Compile Include="Assets\Script\SpaceShitController.cs" />
+     <Compile Include="Assets\Script\SpaceShitMotherController.cs" />
      <Compile Include="Assets\Script\UiManagerDemo.cs" />
      <Compile Include="Assets\Script\UiManagerLevel1Controller.cs" />
      <Compile Include="Assets\Script\lib\Settings.cs" />

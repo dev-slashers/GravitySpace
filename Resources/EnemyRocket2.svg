@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="EnemyRocket2.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient4492"
+       inkscape:collect="always">
+      <stop
+         id="stop4488"
+         offset="0"
+         style="stop-color:#d40000;stop-opacity:1;" />
+      <stop
+         id="stop4490"
+         offset="1"
+         style="stop-color:#d40000;stop-opacity:0;" />
+    </linearGradient>
+    <filter
+       height="1.4892104"
+       y="-0.2446052"
+       width="1.3304409"
+       x="-0.16522043"
+       id="filter1856"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur1858"
+         stdDeviation="15.6834"
+         inkscape:collect="always" />
+    </filter>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.7449604,0,-275.65494)"
+       r="213.40872"
+       fy="370.02631"
+       fx="213.3625"
+       cy="370.02631"
+       cx="213.3625"
+       id="radialGradient4518"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3117143,0,-156.99141)"
+       r="150.16969"
+       fy="503.63873"
+       fx="-586.04999"
+       cy="503.63873"
+       cx="-586.04999"
+       id="radialGradient4520"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.67954543,0,70.512314)"
+       r="111.11678"
+       fy="220.03841"
+       fx="-585.88287"
+       cy="220.03841"
+       cx="-585.88287"
+       id="radialGradient4522"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,2.9372058,0,-1392.3531)"
+       r="37.506683"
+       fy="718.74298"
+       fx="-750.992"
+       cy="718.74298"
+       cx="-750.992"
+       id="radialGradient4524"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,2.9720962,0,-1418.7514)"
+       r="37.331123"
+       fy="719.41284"
+       fx="-420.25781"
+       cy="719.41284"
+       cx="-420.25781"
+       id="radialGradient4526"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.7142857,0,-1759.1029)"
+       r="14.142135"
+       fy="648.09058"
+       fx="-585.88287"
+       cy="648.09058"
+       cx="-585.88287"
+       id="radialGradient4528"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3210044,0,-161.7545)"
+       r="148.93001"
+       fy="503.90128"
+       fx="-585.89404"
+       cy="503.90128"
+       cx="-585.89404"
+       id="radialGradient4530"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,3.0114535,0,-1444.4532)"
+       r="36.287621"
+       fy="718.11414"
+       fx="-420.08829"
+       cy="718.11414"
+       cx="-420.08829"
+       id="radialGradient4532"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.68182407,0,69.950612)"
+       r="110.0649"
+       fy="219.84885"
+       fx="-585.92456"
+       cy="219.84885"
+       cx="-585.92456"
+       id="radialGradient4534"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,2.9297426,0,-1382.5343)"
+       r="36.626572"
+       fy="716.43457"
+       fx="-751.16479"
+       cy="716.43457"
+       cx="-751.16479"
+       id="radialGradient4536"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.20873787,0,580.34997)"
+       r="104.04571"
+       fy="733.44843"
+       fx="-585.88287"
+       cy="733.44843"
+       cx="-585.88287"
+       id="radialGradient4538"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75606395,0,53.391873)"
+       r="151.54909"
+       fy="218.87651"
+       fx="-587.43762"
+       cy="218.87651"
+       cx="-587.43762"
+       id="radialGradient4540"
+       xlink:href="#linearGradient4492"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="491.75234"
+     inkscape:cx="-416.20508"
+     inkscape:zoom="0.98994949"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Livello 1">
+    <g
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       style="fill:url(#radialGradient4518);fill-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,-211.4224,35.095257)"
+       id="g958">
+      <path
+         style="fill:url(#radialGradient4518);fill-opacity:1"
+         d="M 211.77,5 C 180.98,29.506 -55.69,234.9 123.582,628.22 h 179.25 C 482.102,234.9 245.436,29.54 214.644,5.03 l -2.875,-0.0312 z"
+         fill="#ececec"
+         fill-rule="evenodd"
+         stroke="#000000"
+         stroke-width="10"
+         id="path833" />
+      <path
+         style="fill:url(#radialGradient4518);fill-opacity:1"
+         d="m 219.19,259.65 c -37.293,0 -67.625,30.363 -67.625,67.656 0,37.293 30.332,67.625 67.625,67.625 37.293,0 67.656,-30.332 67.656,-67.625 0,-37.293 -30.363,-67.656 -67.656,-67.656 z m 0,8 c 32.965,0 59.656,26.692 59.656,59.656 0,32.965 -26.691,59.625 -59.656,59.625 -32.965,0 -59.625,-26.66 -59.625,-59.625 3e-5,-32.965 26.66,-59.656 59.625,-59.656 z"
+         fill="#cccccc"
+         stroke-linecap="round"
+         stroke-width="8"
+         id="path835" />
+      <g
+         style="fill:url(#radialGradient4518);fill-opacity:1"
+         fill-rule="evenodd"
+         id="g871">
+        <g
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           stroke="#000000"
+           id="g849">
+          <g
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             fill="#ff0000"
+             id="g845">
+            <path
+               style="fill:url(#radialGradient4518);fill-opacity:1"
+               d="m 92.419,166.48 43.437,-79.802 60.609,-68.69 17.173,-13.132 64.65,67.68 50.508,81.822 4.0406,17.173 -241.43,-1.0102"
+               id="path837" />
+            <g
+               style="fill:url(#radialGradient4518);fill-opacity:1"
+               stroke-width="10"
+               id="g843">
+              <path
+                 style="fill:url(#radialGradient4518);fill-opacity:1"
+                 d="m 68.175,470.54 c 0,0 -107.08,-1.3336 -42.426,270.72 0,0 6.0609,-227.16 62.63,-199.15"
+                 id="path839" />
+              <path
+                 style="fill:url(#radialGradient4518);fill-opacity:1"
+                 d="m 358.55,470.54 c 0,0 107.08,-1.3336 42.426,270.72 0,0 -6.0609,-227.16 -62.63,-199.15"
+                 id="path841" />
+            </g>
+          </g>
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="m 97.47,572.56 26.264,55.558 179.81,-1.0102 21.213,-54.548 H 97.477 Z"
+             fill="#b3b3b3"
+             id="path847" />
+        </g>
+        <g
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           fill="#d20000"
+           id="g855">
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="m 383.34,497.81 -20.203,50.508 -12.122,-10.102 -14.142,6.0609 19.193,-75.761 34.345,17.173 c 0,0 59.599,41.416 13.132,247.49 27.274,-213.14 -21.213,-235.37 -20.203,-235.37 z"
+             id="path851" />
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="m 22.718,738.23 c 0,0 -10.061,-220.37 58.589,-221.22 7.5756,-0.0943 7.071,24.244 7.071,24.244 l -27.274,6.0609 -21.213,66.67 -17.173,124.25 z"
+             id="path853" />
+        </g>
+        <path
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           d="m 258.87,572.57 c 4.0529,12.21 6.448,29.248 5.2812,53.531 0.86221,0.30377 1.7754,0.73004 2.7188,1.2188 l 36.656,-0.2188 17.094,-43.938 c -0.68954,-3.7542 -1.4863,-7.1047 -2.25,-10.594 h -59.5 z"
+           fill="#999999"
+           id="path857" />
+        <g
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           fill="#cccccc"
+           id="g863">
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="m 232.85,465.92 c -6.8185,-0.5051 -11.125,0.56247 -11.125,0.56247 l -5.0625,77.781 c 0,0 24.335,-4.8055 35.812,28.312 h 59.625 c -19.366,-90.309 -59.667,-105.21 -79.25,-106.66 z"
+             id="path859" />
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="m 100.31,577.09 20,50 28,2 -8,-57 z"
+             id="path861" />
+        </g>
+        <g
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           stroke="#000000"
+           stroke-width="10"
+           id="g869">
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             sodipodi:nodetypes="cccccc"
+             d="M 207.84143,3.2142857 C 178.72023,32.556127 -59.618571,233.11429 119.65443,626.43429 L 302.833,628.22 C 482.103,234.9 245.435,29.54 214.644,5.03 v 0 z"
+             fill="#ffffff"
+             id="path865" />
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="m 92.419,168.5 h 237.39"
+             fill="none"
+             id="path867" />
+        </g>
+      </g>
+      <g
+         style="fill:url(#radialGradient4518);fill-opacity:1"
+         stroke="#000000"
+         id="g885">
+        <g
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           stroke-linecap="round"
+           id="g877" />
+        <g
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           stroke-width="10"
+           id="g883">
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="M 100.5,573.57 H 324.75"
+             fill="none"
+             id="path879" />
+        </g>
+      </g>
+      <g
+         style="fill:url(#radialGradient4518);fill-opacity:1"
+         fill="#ffffff"
+         id="g909">
+        <path
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           d="m 314.65,560.44 c 0,0 80.812,-185.87 16.162,-364.66 3.0305,317.19 -83.843,364.66 -83.843,364.66 h 67.68 z"
+           fill-rule="evenodd"
+           id="path887" />
+        <g
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           stroke-linecap="round"
+           id="g893" />
+        <g
+           style="fill:url(#radialGradient4518);fill-opacity:1"
+           fill-rule="evenodd"
+           id="g907">
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="m 305.56,153.35 c 0,0 -31.315,-81.822 -90.914,-125.26 54.548,105.06 26.264,125.26 26.264,125.26 z"
+             id="path895" />
+          <g
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             stroke="#000000"
+             stroke-width="10"
+             id="g901">
+            <path
+               style="fill:url(#radialGradient4518);fill-opacity:1"
+               d="m 358.55,470.54 c 0,0 107.08,-1.3336 42.426,270.72 0,0 -6.0609,-227.16 -62.63,-199.15"
+               id="path897" />
+            <path
+               style="fill:url(#radialGradient4518);fill-opacity:1"
+               d="m 68.175,470.54 c 0,0 -107.08,-1.3336 -42.426,270.72 0,0 6.0609,-227.16 62.63,-199.15"
+               id="path899" />
+          </g>
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="m 106.56,150.32 c 0,0 53.538,-104.05 97.985,-131.32 44.447,-27.274 -96.975,133.34 -97.985,131.32 z"
+             id="path903" />
+          <path
+             style="fill:url(#radialGradient4518);fill-opacity:1"
+             d="m 75.027,426.8 c -3.1638,-1.7567 -22.724,-145.96 25.714,-235.71 29.867,-24.039 70.502,-11.397 68.571,-1.4286 -16.727,86.351 -75.47,247.59 -94.286,237.14 z"
+             id="path905" />
+        </g>
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path960"
+       d="m -701.8364,679.15274 c -24.98919,-74.7436 -35.8529,-140.55647 -34.22452,-207.33381 1.32297,-54.25305 10.17948,-102.04028 27.75444,-149.75511 l 5.67411,-15.40483 h 116.75478 116.7548 l 4.43577,11.86929 c 13.65162,36.52919 22.38131,73.86105 26.98746,115.40993 2.18332,19.69427 2.4696,75.7034 0.48792,95.45941 -5.29741,52.81174 -15.47545,98.89742 -33.74274,152.78558 l -6.24929,18.43528 h -47.26853 -47.26853 v -52.52793 -52.52793 h -14.14213 -14.14214 v 52.52793 52.52793 h -47.31736 -47.31736 z"
+       style="fill:url(#radialGradient4520);stroke-width:3.8179;fill-opacity:1" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path962"
+       d="m -696.99964,294.41127 c 0,-1.93421 15.46132,-32.08128 22.73051,-44.32082 18.70188,-31.48938 45.62228,-67.53057 62.25381,-83.34574 9.53967,-9.07142 25.02959,-22.2152 26.18057,-22.2152 1.82023,0 20.77261,17.58635 31.56989,29.29442 21.33332,23.13286 45.28102,55.64647 59.52174,80.8122 5.84748,10.33348 19.97704,38.54614 19.97704,39.8884 0,0.68408 -36.79812,1.02278 -111.11678,1.02278 -81.61299,0 -111.11678,-0.30164 -111.11678,-1.13604 z"
+       style="fill:url(#radialGradient4522);fill-opacity:1;stroke-width:3.8179" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path964"
+       d="m -780.68096,809.46242 c -13.27514,-81.97311 -9.69238,-137.80443 11.12154,-173.3104 4.13993,-7.06222 14.86846,-18.02455 21.24891,-21.71199 4.57824,-2.64589 17.47894,-6.68666 18.24214,-5.71381 0.20429,0.2604 4.01905,13.42866 8.47724,29.2628 l 8.10581,28.78935 -7.16199,0.56008 c -3.93909,0.30804 -8.29841,1.17439 -9.68737,1.92523 -13.70987,7.41125 -23.84571,27.11451 -32.23874,62.66953 -5.22004,22.1134 -10.82445,60.32895 -12.7772,87.12566 -0.39474,5.41694 -1.04701,9.84898 -1.44948,9.84898 -0.40247,0 -2.14886,-8.75044 -3.88086,-19.44543 z"
+       style="fill:url(#radialGradient4524);fill-opacity:1;stroke-width:3.8179" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path968"
+       d="m -394.84613,830.14749 c -5.08015,-55.40176 -11.44533,-93.65053 -19.82028,-119.10119 -10.10417,-30.70562 -21.09367,-43.76285 -36.83258,-43.76285 -3.35197,0 -6.09245,-0.34093 -6.08995,-0.75762 0.005,-0.77307 10.54664,-38.5663 14.26197,-51.12941 l 2.05099,-6.93524 4.21561,0.64396 c 8.07739,1.23386 16.81643,6.43139 25.48481,15.15704 6.83511,6.88026 8.96567,9.88662 13.31449,18.78759 16.93536,34.66255 19.82531,86.95444 8.75823,158.47479 -2.77181,17.91263 -5.15484,30.67807 -5.34329,28.62293 z"
+       style="fill:url(#radialGradient4526);fill-opacity:1;stroke-width:3.8179" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path970"
+       d="m -600.025,648.09055 v -52.52793 h 14.14214 14.14213 v 52.52793 52.52793 h -14.14213 -14.14214 z"
+       style="fill:url(#radialGradient4528);fill-opacity:1;stroke-width:3.8179" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path972"
+       d="m -694.29152,699.86087 c -0.24287,-0.41669 -3.18631,-9.16714 -6.54099,-19.44544 -17.11154,-52.42755 -26.03872,-91.23718 -31.71718,-137.88582 -1.90573,-15.65558 -2.22151,-23.51789 -2.27202,-56.56854 -0.0386,-25.23794 0.39534,-42.53776 1.26679,-50.50763 4.61981,-42.25041 12.71433,-77.52174 26.3119,-114.65232 l 4.99402,-13.63705 h 116.38618 116.38617 l 4.48514,12.12183 c 11.47964,31.02571 21.02951,70.38554 25.73477,106.06601 2.02858,15.38301 2.26733,21.54128 2.29109,59.09393 0.0239,37.78763 -0.19736,43.61465 -2.24384,59.09392 -6.72579,50.87285 -17.10587,94.33191 -35.34639,147.98735 l -2.91897,8.5863 -47.13294,0.26252 -47.13294,0.26253 v -52.53792 -52.53792 h -14.14213 -14.14214 v 52.52793 52.52793 h -46.91247 c -25.80187,0 -47.11119,-0.34093 -47.35405,-0.75761 z"
+       style="fill:url(#radialGradient4530);fill-opacity:1;stroke-width:3.8179" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path974"
+       d="m -395.85083,814.76572 c -8.65646,-86.64165 -24.02347,-136.43154 -44.88757,-145.43791 -2.3255,-1.00385 -6.88177,-2.13946 -10.12505,-2.52359 -5.75781,-0.68194 -5.8819,-0.76194 -5.26235,-3.39259 0.34899,-1.4818 3.89997,-14.36757 7.89107,-28.63506 l 7.25655,-25.94089 3.05656,0.51771 c 1.68111,0.28474 6.38593,2.11278 10.45516,4.06231 10.31364,4.94118 21.45475,16.07552 27.19565,27.17912 7.63978,14.7763 12.97365,33.97864 15.329,55.18562 3.24225,29.19236 -0.69463,88.06991 -8.39206,125.50654 l -1.25539,6.10565 z"
+       style="fill:url(#radialGradient4532);fill-opacity:1;stroke-width:3.8179" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path976"
+       d="m -654.3207,294.80857 c -30.66598,-0.21624 -41.66879,-0.60192 -41.66879,-1.46064 0,-1.49714 15.49781,-31.2548 22.35097,-42.91656 12.89386,-21.94098 33.74685,-51.27147 49.43801,-69.53637 9.18637,-10.69317 15.85435,-17.16178 29.77122,-28.88108 l 8.56198,-7.20997 4.54784,3.72662 c 8.62707,7.06923 29.41924,28.35602 39.01252,39.94057 17.93821,21.66163 35.35086,46.17822 45.9862,64.74747 6.31161,11.02002 20.98564,40.2215 20.4466,40.68894 -0.64501,0.55933 -132.49195,1.22505 -178.44655,0.90102 z"
+       style="fill:url(#radialGradient4534);fill-opacity:1;stroke-width:3.8179" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path978"
+       d="m -779.13928,815.06799 c -9.67024,-56.42233 -11.24897,-102.89116 -4.6626,-137.2402 6.79027,-35.41239 23.19406,-59.53887 45.2111,-66.4959 4.26307,-1.34706 7.87211,-2.33256 8.02009,-2.19 0.14798,0.14255 3.67628,12.2598 7.84066,26.92721 4.16438,14.66741 7.80937,27.41718 8.09999,28.33282 0.43772,1.37915 -0.56098,1.78971 -5.82036,2.39268 -9.36585,1.07377 -13.3452,3.06604 -19.327,9.67614 -12.00385,13.2647 -21.2498,39.76348 -28.33972,81.22136 -2.94877,17.24274 -6.18327,42.15418 -7.2137,55.55839 -0.38439,5.00026 -1.01682,9.68196 -1.4054,10.40379 -0.38859,0.72183 -1.46996,-3.14201 -2.40306,-8.58629 z"
+       style="fill:url(#radialGradient4536);fill-opacity:1;stroke-width:3.8179" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path980"
+       d="m -674.90026,748.34819 c -3.25704,-7.23409 -15.02831,-35.62765 -15.02831,-36.24988 0,-0.20248 46.82057,-0.36815 104.04571,-0.36815 57.22514,0 104.04571,0.16184 104.04571,0.35964 0,0.65409 -11.86314,29.31119 -15.00984,36.25839 l -3.08841,6.81853 h -85.94746 -85.94746 z"
+       style="fill:url(#radialGradient4538);fill-opacity:1;stroke-width:3.8179" />
+    <path
+       inkscape:export-ydpi="95.699997"
+       inkscape:export-xdpi="95.699997"
+       inkscape:export-filename="D:\Project\Unity\GravitySpace\Assets\Sprites\EnemyRocket2.png"
+       transform="scale(0.26458333)"
+       id="path982"
+       d="m -701.34653,295.69072 c 0,-0.34755 5.67574,-12.31837 8.74535,-18.445 19.2478,-38.4167 44.12771,-74.15131 74.59387,-107.13796 5.94013,-6.43156 26.2143,-26.79001 27.64135,-27.75625 1.42427,-0.96436 3.01964,-0.32059 6.61631,2.66984 12.4655,10.36434 28.33943,26.24742 41.30767,41.33151 27.11327,31.53695 51.25841,69.69387 68.08093,107.58929 l 0.83235,1.875 h -113.90891 c -62.64991,0 -113.90892,-0.0569 -113.90892,-0.12643 z m 12.0967,-17.37747 c 2.66843,-5.23113 11.2557,-21.32687 13.09755,-24.54968 0.70163,-1.22767 1.19919,-2.23214 1.10571,-2.23214 -0.21431,0 -7.7188,13.0252 -11.72881,20.35714 -6.21602,11.36545 -6.10763,11.1445 -5.40112,11.00953 0.42427,-0.0811 1.44473,-1.67969 2.92667,-4.58485 z M -674.20367,250.46 c 0.21025,-0.39285 0.30191,-0.71428 0.2037,-0.71428 -0.0982,0 -0.3506,0.32143 -0.56085,0.71428 -0.21025,0.39286 -0.30191,0.71429 -0.2037,0.71429 0.0982,0 0.35059,-0.32143 0.56085,-0.71429 z m 1.63229,-2.76785 c 0.54224,-0.93304 1.21944,-2.09822 1.50489,-2.58929 l 0.51901,-0.89286 -0.66738,0.8031 c -0.77997,0.93857 -2.7497,4.37547 -2.50764,4.37547 0.0909,0 0.60889,-0.76339 1.15112,-1.69642 z m 6.05348,-9.73215 c 12.63512,-19.98177 28.7489,-42.01308 42.35793,-57.91319 5.60976,-6.55417 14.59347,-15.51935 22.09915,-22.05358 7.41892,-6.45871 7.53257,-6.57606 4.2562,-4.39493 -13.33748,8.87893 -31.12247,28.36673 -48.95984,53.64742 -6.75428,9.57275 -18.70975,27.92559 -23.1488,35.53571 -1.81607,3.1134 0.0842,0.41504 3.39536,-4.82143 z"
+       style="fill:url(#radialGradient4540);fill-opacity:1;stroke-width:1.34983;filter:url(#filter1856)" />
+  </g>
+</svg>

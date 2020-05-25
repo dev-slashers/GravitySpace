@@ -93,8 +93,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 911, y: 442}
-  m_MaxSize: {x: 22006, y: 10021}
+  m_MinSize: {x: 908, y: 442}
+  m_MaxSize: {x: 22003, y: 10021}
   vertical: 0
   controlID: 35
 --- !u!114 &5
@@ -240,8 +240,8 @@ MonoBehaviour:
     y: 0
     width: 938
     height: 486
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 33082
+  m_LastSelectedObjectID: -5672
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,7 +327,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1080
+    width: 937
     height: 465
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
@@ -335,6 +335,7 @@ MonoBehaviour:
     - {fileID: -7385408325820141108, guid: 327557fd9285cb94d80101c562331592, type: 2}
     - {fileID: 972561396525645809, guid: 9539499bd0a570c4192510b6ccfff89e, type: 2}
     - {fileID: 4522292669300162706, guid: 33572d625a3aec241bdcf818e3067cc8, type: 2}
+    - {fileID: 4089669736885940241, guid: 293ebbe2b63a00045becc4b64f8f16d6, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -384,11 +385,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 33572d625a3aec241bdcf818e3067cc8,
+  m_AnimatorController: {fileID: 9100000, guid: 293ebbe2b63a00045becc4b64f8f16d6,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 4522292669300162706, guid: 33572d625a3aec241bdcf818e3067cc8,
+  - m_Target: {fileID: 4089669736885940241, guid: 293ebbe2b63a00045becc4b64f8f16d6,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -433,21 +450,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 74b4ffff88b4ffff32b5ffff38b5ffff3cb5ffff42b5ffff0eb6ffff82b7fffff4b7ffff0eb8ffffecb8ffff68fbffff6afbffff
+      m_ExpandedIDs: 4eccffff62ccffff0ccdffff12cdffff16cdffff1ccdffff38fbffff92390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: EnemyRocket
-        m_OriginalName: EnemyRocket
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1994
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -534,20 +551,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Project\Unity\GravitySpace
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c3a0000
-    m_LastClickedID: 14860
-    m_ExpandedIDs: 00000000003a00000e3a000000ca9a3b
+    m_SelectedIDs: 2e3a0000
+    m_LastClickedID: 14894
+    m_ExpandedIDs: 00000000243a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -575,7 +592,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000003a0000
+    m_ExpandedIDs: 00000000243a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -758,9 +775,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.0654297, y: 1.5307735, z: -1.7363281}
+    m_Target: {x: 1.3824879, y: 1.9697629, z: -3.5683594}
     speed: 2
-    m_Value: {x: 2.0654297, y: 1.5307735, z: -1.7363281}
+    m_Value: {x: 1.3824879, y: 1.9697629, z: -3.5683594}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -810,9 +827,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.283505
+    m_Target: 5.853882
     speed: 2
-    m_Value: 5.283505
+    m_Value: 5.853882
   m_Ortho:
     m_Target: 1
     speed: 2

@@ -33,7 +33,6 @@ public class UiManagerLevel1Controller : MonoBehaviour
         score = 0;
         hasStarted = false;
         gameOver = false;
-        //Settings.instance.GetResolution();
     }
 
     // Update is called once per frame
@@ -62,6 +61,7 @@ public class UiManagerLevel1Controller : MonoBehaviour
         spaceShitSpeed += 0.5f;
         string scoreKey = "bestScore";
         scoreText.text = score.ToString();
+
 
         if (PlayerPrefs.HasKey(scoreKey) && score > PlayerPrefs.GetInt(scoreKey)) PlayerPrefs.SetInt("bestScore", score);
         if (!PlayerPrefs.HasKey(scoreKey)) PlayerPrefs.SetInt(scoreKey, score);
