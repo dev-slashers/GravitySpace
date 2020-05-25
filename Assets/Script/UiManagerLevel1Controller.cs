@@ -1,20 +1,20 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.SceneManagement;
-
 public class UiManagerLevel1Controller : MonoBehaviour
 {
+    int score;
     public float spawnTime;
-    public float maxPositionY;
+
+
     public Text scoreText;
+    public float spaceShitSpeed;
 
     public Text gameOverScoreText;
     public Text gameOverBestScoreText;
 
     public GameObject gameOverPanel;
-
-    int score;
+    
 
     public static UiManagerLevel1Controller instance;
 
@@ -57,12 +57,10 @@ public class UiManagerLevel1Controller : MonoBehaviour
     public void AddScore()
     {
         score += 1;
-
-        if (score == 10) SceneManager.LoadScene("demoScene");
-
+        spaceShitSpeed += 0.5f;
         string scoreKey = "bestScore";
         scoreText.text = score.ToString();
-        SpaceShitController.instance.speedTime += 5f;
+
         if (PlayerPrefs.HasKey(scoreKey) && score > PlayerPrefs.GetInt(scoreKey)) PlayerPrefs.SetInt("bestScore", score);
         if (!PlayerPrefs.HasKey(scoreKey)) PlayerPrefs.SetInt(scoreKey, score);
     }

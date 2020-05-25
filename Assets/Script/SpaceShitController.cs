@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SpaceShitController : MonoBehaviour
 {
-
-    public float speedTime;
     Rigidbody2D spaceShitRigidBody2D;
 
     public static SpaceShitController instance;
@@ -38,7 +34,7 @@ public class SpaceShitController : MonoBehaviour
         if (range > 8) toMove = 1.5f;
         if (range > 9) toMove = -1.5f;
 
-        spaceShitRigidBody2D.velocity = new Vector2((-speedTime), toMove);
+        spaceShitRigidBody2D.velocity = new Vector2((-UiManagerLevel1Controller.instance.spaceShitSpeed), toMove);
     }
 
 
@@ -50,7 +46,7 @@ public class SpaceShitController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider2D)
     {
-        
+        if (collider2D.gameObject.tag == "Footer") spaceShitRigidBody2D.velocity = new Vector2((-UiManagerLevel1Controller.instance.spaceShitSpeed), 3f);
     }
 
 }

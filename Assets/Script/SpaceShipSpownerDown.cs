@@ -17,7 +17,8 @@ public class SpaceShipSpownerDown : MonoBehaviour
 
     void SpawnObject()
     {
-        Instantiate(gameObjectAlien, new Vector3(transform.position.x, Random.Range(-UiManagerLevel1Controller.instance.maxPositionY, UiManagerLevel1Controller.instance.maxPositionY), 0),Quaternion.identity);
+       
+        Instantiate(gameObjectAlien, new Vector3(transform.position.x, Random.Range(1f, 4f), 0),Quaternion.identity);
     }
 
 
