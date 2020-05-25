@@ -68,7 +68,6 @@
      <Compile Include="Assets\Script\SpaceShitMotherController.cs" />
      <Compile Include="Assets\Script\UiManagerDemo.cs" />
      <Compile Include="Assets\Script\UiManagerLevel1Controller.cs" />
-     <Compile Include="Assets\Script\lib\Settings.cs" />
      <Compile Include="Assets\Script\spaceShipAlienController.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

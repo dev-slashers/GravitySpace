@@ -18,9 +18,12 @@ public class SpaceShipSpownerDown : MonoBehaviour
 
     void SpawnObject()
     {
+        
         int score = UiManagerLevel1Controller.instance.score;
+
         if (score > 15) Instantiate(gameObjectRocket);
         Instantiate(gameObjectAlien, new Vector3(transform.position.x, Random.Range(1f, 4f), 0),Quaternion.identity);
+
         if ((score.ToString().IndexOf("0") != -1) && score != 0 && score > 30) Instantiate(gameObjectMother);
 
     }
