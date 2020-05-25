@@ -33,6 +33,7 @@ public class UiManagerLevel1Controller : MonoBehaviour
         score = 0;
         hasStarted = false;
         gameOver = false;
+        Settings.instance.GetResolution();
     }
 
     // Update is called once per frame
@@ -57,6 +58,9 @@ public class UiManagerLevel1Controller : MonoBehaviour
     public void AddScore()
     {
         score += 1;
+
+        if (score == 10) SceneManager.LoadScene("demoScene");
+
         spaceShitSpeed += 0.5f;
         string scoreKey = "bestScore";
         scoreText.text = score.ToString();
