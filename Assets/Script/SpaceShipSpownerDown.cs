@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class SpaceShipSpownerDown : MonoBehaviour
 {
     public GameObject gameObjectAlien;
@@ -25,6 +25,7 @@ public class SpaceShipSpownerDown : MonoBehaviour
         Instantiate(gameObjectAlien, new Vector3(transform.position.x, Random.Range(1f, 4f), 0),Quaternion.identity);
 
         if ((score.ToString().IndexOf("0") != -1) && score != 0 && score > 30) Instantiate(gameObjectMother);
+        if (score >= 100) SceneManager.LoadScene("Winner");
 
     }
 
